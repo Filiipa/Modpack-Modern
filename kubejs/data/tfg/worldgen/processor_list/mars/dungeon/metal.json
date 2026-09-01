@@ -1,0 +1,49 @@
+{   
+    "processors": [
+            {
+            "processor_type": "lithostitched:condition",
+            "random_mode": {
+                "mode": "per_block",
+                "name": "replace:magenta_metal_sheet"
+                            },
+            "if_true":  [
+                {
+                "type": "lithostitched:matching_blocks",
+                "blocks": "gtceu:magenta_metal_sheet",
+                "match_type": "input"
+                }
+                        ],
+            "then": {
+                "processor_type": "lithostitched:set_block",
+                "state_provider":   {
+                            "type": "minecraft:weighted_state_provider",
+                            "entries":  [
+                            {
+                                "weight": 3,
+                                "data": {
+                                "Name": "gtceu:magenta_metal_sheet"
+                                        }
+                            },
+                            {
+                                "weight": 1,
+                                "data": {
+                                "Name": "gtceu:magenta_large_metal_sheet"
+                                        }
+                            },
+                            {
+                                "weight": 1,
+                                "data": {
+                                "Name": "gtceu:magenta_large_metal_sheet"
+                                        }
+                            }
+                                        ]
+                                    },
+            "preserve_state": true,
+            "random_mode": "per_block",
+            "block_entity_modifier":    {
+                "type": "minecraft:passthrough"
+                                        }
+                    }
+            }
+    ]
+}
