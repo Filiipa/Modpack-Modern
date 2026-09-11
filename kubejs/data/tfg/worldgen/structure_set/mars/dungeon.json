@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "tfg:mars/dungeon",
+			"weight": 100
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 524516552,
+		"spacing": 15,
+		"separation": 5
+	}
+}
