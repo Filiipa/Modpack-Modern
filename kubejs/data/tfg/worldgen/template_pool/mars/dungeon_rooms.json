@@ -1,0 +1,33 @@
+{
+	"name": "tfg:mars/dungeon_rooms",
+	"fallback": "tfg:mars/dungeon_tunnels",
+	"elements": [
+		{
+			"weight": 60,
+			"element": 	{
+				"element_type": "lithostitched:delegating",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"location": "tfg:mars/dungeon/breakroom",
+					"processors": "tfg:mars/dungeon/metal",
+					"projection": "rigid"
+							},
+				"override_terrain_adaptation": "bury"
+						}
+		},
+		{
+			"weight": 10,
+			"element": 	{
+				"element_type": "lithostitched:delegating",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"location": "tfg:mars/dungeon/bedroom",
+					"processors": "tfg:mars/dungeon/metal",
+					"projection": "rigid"
+							},
+				"override_terrain_adaptation": "bury",
+				"min_depth": 14
+						}
+		}
+    ]
+}

@@ -25,10 +25,127 @@
 					"processors": "tfg:mars/dungeon/metal",
 					"projection": "rigid"
 							},
-				"allowed_depth": [5, 10],
+				"allowed_depth": [3, 7],
 				"forced_count": 1,
 				"override_terrain_adaptation": "bury"
 			}
+		},
+		{
+			"weight": 30,
+			"element": 	{
+				"element_type": "lithostitched:delegating",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"location": "tfg:mars/dungeon/straight_short",
+					"processors": "tfg:mars/dungeon/metal",
+					"projection": "rigid"
+							},
+				"override_terrain_adaptation": "bury"
+						}
+		},
+		{
+			"weight": 40,
+			"element": 	{
+				"element_type": "lithostitched:delegating",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"location": "tfg:mars/dungeon/straight_medium",
+					"processors": "tfg:mars/dungeon/metal",
+					"projection": "rigid"
+							},
+				"override_terrain_adaptation": "bury"
+						}
+		},
+		{
+			"weight": 30,
+			"element": 	{
+				"element_type": "lithostitched:delegating",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"location": "tfg:mars/dungeon/straight_long",
+					"processors": "tfg:mars/dungeon/metal",
+					"projection": "rigid"
+							},
+				"override_terrain_adaptation": "bury"
+						}
+		},
+		{
+			"weight": 20,
+			"element": 	{
+				"element_type": "lithostitched:delegating",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"location": "tfg:mars/dungeon/bend_left",
+					"processors": "tfg:mars/dungeon/metal",
+					"projection": "rigid"
+							},
+				"override_terrain_adaptation": "bury"
+						}
+		},
+		{
+			"weight": 20,
+			"element": 	{
+				"element_type": "lithostitched:delegating",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"location": "tfg:mars/dungeon/bend_right",
+					"processors": "tfg:mars/dungeon/metal",
+					"projection": "rigid"
+							},
+				"override_terrain_adaptation": "bury"
+						}
+		},
+		{
+			"weight": 30,
+			"element": 	{
+				"element_type": "lithostitched:delegating",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"location": "tfg:mars/dungeon/fork_left",
+					"processors": "tfg:mars/dungeon/metal",
+					"projection": "rigid"
+							},
+				"override_terrain_adaptation": "bury"
+						}
+		},
+		{
+			"weight": 30,
+			"element": 	{
+				"element_type": "lithostitched:delegating",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"location": "tfg:mars/dungeon/fork_right",
+					"processors": "tfg:mars/dungeon/metal",
+					"projection": "rigid"
+							},
+				"override_terrain_adaptation": "bury"
+						}
+		},
+		{
+			"weight": 20,
+			"element": 	{
+				"element_type": "lithostitched:delegating",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"location": "tfg:mars/dungeon/t_junction",
+					"processors": "tfg:mars/dungeon/metal",
+					"projection": "rigid"
+							},
+				"override_terrain_adaptation": "bury"
+						}
+		},
+		{
+			"weight": 20,
+			"element": 	{
+				"element_type": "lithostitched:delegating",
+				"delegate": {
+					"element_type": "minecraft:single_pool_element",
+					"location": "tfg:mars/dungeon/cross",
+					"processors": "tfg:mars/dungeon/metal",
+					"projection": "rigid"
+							},
+				"override_terrain_adaptation": "bury"
+						}
 		}
     ]
 }
