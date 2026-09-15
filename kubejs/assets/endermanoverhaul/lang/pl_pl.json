@@ -62,7 +62,6 @@
 	"item.endermanoverhaul.bubble_pearl": "Bąbelkowa perła",
 	"item.endermanoverhaul.cave_enderman_spawn_egg": "Jajo przyzywające jaskiniowego endermana",
 	"item.endermanoverhaul.coral_enderman_spawn_egg": "Jajo przyzywające koralowego endermana",
-	"item.endermanoverhaul.corrupted_blade": "Spaczone ostrze",
 	"item.endermanoverhaul.corrupted_pearl": "Spaczona perła",
 	"item.endermanoverhaul.corrupted_shield": "Spaczona tarcza",
 	"item.endermanoverhaul.crimson_forest_enderman_spawn_egg": "Jajo przyzywające endermana z szkarłatnego lasu",
@@ -120,7 +119,7 @@
 	"tooltip.endermanoverhaul.hood": "Pozwala spojrzeć na endermany, nie denerwując ich",
 	"tooltip.endermanoverhaul.icy_pearl": "Zamraża pobliskie cele przy trafieniu",
 	"tooltip.endermanoverhaul.not_bound": "Niepowiązane",
-	"tooltip.endermanoverhaul.soul_pearl_1": "Shift-PPM, by przypisać byt",
+	"tooltip.endermanoverhaul.soul_pearl_1": "Shift+PPM, aby przypisać byt",
 	"tooltip.endermanoverhaul.soul_pearl_2": "Teleportuje przypisany byt do celu",
 	"tooltip.endermanoverhaul.summoner_pearl": "Teleportuje pobliskie cele przy trafieniu",
 	"tooltip.endermanoverhaul.warped_pearl": "Aplikuje Odporność II podczas teleportowania"

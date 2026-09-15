@@ -284,24 +284,24 @@ const registerGTCEURecipes = (event) => {
 
 	// ME Pattern Buffer
 	event.remove({ id: 'gtceu:assembly_line/me_pattern_buffer_proxy' })
-	event.recipes.gtceu.assembly_line('tfg:me_pattern_buffer_proxy')
+	event.recipes.gtceu.me_assembler('tfg:me_pattern_buffer_proxy')
 		.itemInputs(
 			'gtceu:luv_machine_hull',
 			'2x gtceu:luv_sensor',
 			'#gtceu:circuits/luv',
 			'gtceu:fusion_glass',
 			'2x ae2:quantum_ring',
-			// tom insists on keeping this jank, it feels like a bug to me but apparently it's "intended base gt behaviour"
-			'32x gtceu:fine_europium_wire',
-			'32x gtceu:fine_europium_wire',
+			'64x gtceu:fine_europium_wire',
 			'16x megacells:accumulation_processor')
 		.inputFluids(Fluid.of('gtceu:lubricant', 500))
 		.inputFluids(Fluid.of('tfg:cryogenized_fluix', 144 * 4))
 		.stationResearch(b => b.researchStack(Item.of('gtceu:me_pattern_buffer')).EUt(GTValues.VA[GTValues.LuV]).CWUt(32))
 		.itemOutputs('gtceu:me_pattern_buffer_proxy')
 		.duration(30 * 20)
-		.EUt(GTValues.VA[GTValues.ZPM])
+		.EUt(GTValues.VA[GTValues.LuV])
+		.circuit(9)
 
+	// Redo Recipe
 	event.replaceInput({ id: 'gtceu:assembly_line/me_pattern_buffer' }, 'ae2:pattern_provider', '3x expatternprovider:ex_pattern_provider')
 	event.replaceInput({ id: 'gtceu:assembly_line/me_pattern_buffer' }, 'ae2:interface', '3x expatternprovider:oversize_interface')
 
@@ -490,4 +490,157 @@ const registerGTCEURecipes = (event) => {
 		.chancedOutput(Item.of('gtceu:neodymium_dust', 1), 2000, 0)
 		.duration(2.5*20)
 		.EUt(GTValues.VA[GTValues.MV])
+
+	//Buff treated wood stick output for lathe
+
+	event.replaceOutput({id: 'gtceu:lathe/treated_wood_sticks'}, 'gtceu:treated_wood_rod', '8x gtceu:treated_wood_rod')
+
+	// Add some more gem plates to filters
+	event.shaped('gtceu:item_filter', [
+		'AAA',
+		'ABA',
+		'AAA'
+	], {
+		A: '#forge:foils/zinc',
+		B: '#forge:plates/opal'
+	}).id('tfg:shaped/item_filter_opal')
+
+	event.shaped('gtceu:item_filter', [
+		'AAA',
+		'ABA',
+		'AAA'
+	], {
+		A: '#forge:foils/zinc',
+		B: '#forge:plates/nether_quartz'
+	}).id('tfg:shaped/item_filter_nether_quartz')
+
+	event.shaped('gtceu:item_filter', [
+		'AAA',
+		'ABA',
+		'AAA'
+	], {
+		A: '#forge:foils/zinc',
+		B: '#forge:plates/quartzite'
+	}).id('tfg:shaped/item_filter_quartzite')
+
+	event.shaped('gtceu:fluid_filter', [
+		'AAA',
+		'ABA',
+		'AAA'
+	], {
+		A: '#forge:foils/zinc',
+		B: '#forge:plates/sapphire'
+	}).id('tfg:shaped/fluid_filter_sapphire')
+
+	event.shaped('gtceu:fluid_filter', [
+		'AAA',
+		'ABA',
+		'AAA'
+	], {
+		A: '#forge:foils/zinc',
+		B: '#forge:plates/blue_topaz'
+	}).id('tfg:shaped/fluid_filter_blue_topaz')
+
+	event.shaped('gtceu:fluid_filter', [
+		'AAA',
+		'ABA',
+		'AAA'
+	], {
+		A: '#forge:foils/zinc',
+		B: '#forge:plates/apatite'
+	}).id('tfg:shaped/fluid_filter_apatite')
+
+	event.shaped('gtceu:item_tag_filter', [
+		'AAA',
+		'ABA',
+		'AAA'
+	], {
+		A: '#forge:foils/zinc',
+		B: '#forge:plates/green_sapphire'
+	}).id('tfg:shaped/item_tag_filter_green_sapphire')
+
+	event.shaped('gtceu:item_tag_filter', [
+		'AAA',
+		'ABA',
+		'AAA'
+	], {
+		A: '#forge:foils/zinc',
+		B: '#forge:plates/yellow_garnet'
+	}).id('tfg:shaped/item_tag_filter_yellow_garnet')
+
+	event.shaped('gtceu:item_smart_filter', [
+		'ABA',
+		'ACA',
+		'ABA'
+	], {
+		A: '#forge:foils/zinc',
+		B: '#forge:plates/red_garnet',
+		C: '#gtceu:circuits/lv'
+	}).id('tfg:shaped/item_smart_filter_red_garnet')
+
+	event.shaped('gtceu:item_smart_filter', [
+		'ABA',
+		'ACA',
+		'ABA'
+	], {
+		A: '#forge:foils/zinc',
+		B: '#forge:plates/topaz',
+		C: '#gtceu:circuits/lv'
+	}).id('tfg:shaped/item_smart_filter_topaz')
+
+	event.shaped('gtceu:fluid_tag_filter', [
+		'AAA',
+		'ABA',
+		'AAA'
+	], {
+		A: '#forge:foils/zinc',
+		B: '#forge:plates/rose_quartz'
+	}).id('tfg:shaped/fluid_tag_filter_rose_quartz')
+
+	event.shaped('gtceu:fluid_tag_filter', [
+		'AAA',
+		'ABA',
+		'AAA'
+	], {
+		A: '#forge:foils/zinc',
+		B: '#forge:plates/grossular'
+	}).id('tfg:shaped/fluid_tag_filter_grossular')
+
+	event.shaped('gtceu:fluid_tag_filter', [
+		'AAA',
+		'ABA',
+		'AAA'
+	], {
+		A: '#forge:foils/zinc',
+		B: '#forge:plates/spessartine'
+	}).id('tfg:shaped/fluid_tag_filter_spessartine')
+
+	// Change Basic Data Access Hatch so it doesn't require Cleanroom
+
+	event.remove({ id: 'gtceu:assembler/basic_data_access_hatch' })
+	event.recipes.gtceu.assembler('tfg:basic_data_access_hatch')
+		.itemInputs(Item.of('gtceu:hv_input_bus', 1), '4x #gtceu:circuits/hv', Item.of('gtceu:cpu_chip', 8), Item.of('gtceu:ram_chip', 32), Item.of('gtceu:fine_red_alloy_wire', 16))
+		.inputFluids(Fluid.of('gtceu:polyethylene', 288))
+		.itemOutputs(Item.of('gtceu:basic_data_access_hatch', 1))
+		.duration(20*10)
+		.EUt(GTValues.VA[GTValues.HV]);
+
+    // Make the laser hatches use lenses that can be easily automated
+
+    ['ev', 'iv', 'luv', 'zpm', 'uv', 'uhv'].forEach(tier => {
+        [256, 1024, 4096].forEach(amperage => {
+            ['source', 'output', 'target'].forEach(kind => {
+                event.replaceInput({ id: `gtceu:assembler/${tier}_${amperage}a_laser_${kind}_hatch` }, 'gtceu:diamond_lens', 'gtceu:glass_lens')
+            })
+        })
+    })
+
+	event.recipes.tfc.glassworking(
+		'4x gtceu:glass_vial',
+		'#tfc:glass_batches_tier_3',
+		[
+			'stretch',
+			'stretch',
+			'blow'
+		]).id('tfg:glassworking/glass_vial')
 }

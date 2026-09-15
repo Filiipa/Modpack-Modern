@@ -1,4 +1,6 @@
 {
+	"accessories.slot.calendarslot": "Naptár",
+	"curios.identifier.calendarslot": "Naptár",
 	"desc.seasonhud.month.01": "Január",
 	"desc.seasonhud.month.02": "Február",
 	"desc.seasonhud.month.03": "Március",
@@ -26,5 +28,6 @@
 	"menu.seasonhud.color.season.autumn.editbox": "Ősz",
 	"menu.seasonhud.color.season.spring.editbox": "Tavasz",
 	"menu.seasonhud.color.season.summer.editbox": "Nyár",
-	"menu.seasonhud.color.season.winter.editbox": "Tél"
+	"menu.seasonhud.color.season.winter.editbox": "Tél",
+	"trinkets.slot.calendar.calendarslot": "Naptár"
 }

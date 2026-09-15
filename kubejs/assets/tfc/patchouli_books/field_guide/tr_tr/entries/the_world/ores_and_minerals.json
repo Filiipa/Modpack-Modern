@@ -219,7 +219,7 @@
       "type": "patchouli:text",
       "anchor": "malachite",
       "text": "Malachite is an ore of $(thing)Copper$() metal. It can be found primarily in $(thing)Marble$() or $(thing)Limestone$(), $(thing)Chalk$(), and $(thing)Dolomite$(). It can be found at most elevations, however deeper veins are often larger and richer.",
-      "title": "Malaşit"
+      "title": "Malakit"
     },
     {
       "type": "tfc:multimultiblock",
@@ -871,7 +871,7 @@
       "type": "patchouli:spotlight",
       "anchor": "sulfur",
       "item": "tfc:ore/sulfur",
-      "title": "Sülfür",
+      "title": "Sulfur",
       "link_recipes": false,
       "text": "Sulfur is a $(thing)Mineral$() which can be ground in the $(l:mechanics/quern)Quern$(), and then used in the crafting of $(thing)Gunpowder$(). It is found near lava level deep underground, in sparse but large and plentiful veins, in any $(l:the_world/geology#metamorphic)Metamorphic$() or $(l:the_world/geology#igneous_intrusive)Igneous Intrusive$() rock."
     },

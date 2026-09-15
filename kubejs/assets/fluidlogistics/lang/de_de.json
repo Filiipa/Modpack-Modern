@@ -1,6 +1,4 @@
 {
-	"block.fluidlogistics.copper_schematicannon.tooltip.behaviour1": "Öffnet das _Interface_",
-	"block.fluidlogistics.copper_schematicannon.tooltip.condition1": "Wenn gerechtsklickt",
 	"block.fluidlogistics.fluid_hatch.tooltip.condition1": "Wenn gerechtsklickt",
 	"create.fluidlogistics.hand_pointer.display_link.can_connect": "Kann verbinden ✔",
 	"create.fluidlogistics.hand_pointer.frogport.can_connect": "Kann verbinden ✔",
@@ -10,6 +8,7 @@
 	"create.goggles.no_address": "Nichts",
 	"create.gui.stock_keeper.package_adress": "Paketadresse",
 	"create.hint.mechanical_fluid_gun_no_targets.title": "Keine Ziele",
+	"fluidlogistics.fluid_pump.direction.forward": "Vorwärts",
 	"fluidlogistics.fluid_pump.transfer_direction": "Transferrichtung",
 	"fluidlogistics.mechanical_fluid_gun.schedule_mode": "Verteilungsmethode",
 	"fluidlogistics.mechanical_fluid_gun.schedule_mode.forced_round_robin": "Gezwungener Round Robin",

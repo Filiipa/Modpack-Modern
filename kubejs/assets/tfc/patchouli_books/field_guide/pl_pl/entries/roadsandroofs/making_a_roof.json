@@ -11,8 +11,8 @@
 			"type": "patchouli:crafting",
 			"anchor": "roof_frame",
 			"recipe": "rnr:crafting/roof_framing",
-			"title": "Roof Frame",
-			"text": "Roof frames are the starting point for all roofs."
+			"title": "Rama dachowa",
+			"text": "Punktem wyjścia dla wszystkich dachów są ramy dachowe."
 		},
 		{
 			"type": "patchouli:text",
@@ -20,7 +20,7 @@
 		},
 		{
 			"type": "patchouli:image",
-			"title": "Thatching a Roof",
+			"title": "Krycie dachu strzechą",
 			"images": [
 				"rnr:textures/gui/book/thatching.png"
 			],

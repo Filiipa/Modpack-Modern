@@ -11,15 +11,15 @@
       "type": "patchouli:crafting",
       "anchor": "gneiss_flagstones",
       "recipe": "rnr:crafting/flagstone/gneiss",
-      "title": "Flagstone Crafting",
-      "text": "Flagstones can be crafted from smooth stone or sandstone blocks."
+      "title": "Wytwarzanie kamieni chodnikowych",
+      "text": "Kamienie chodnikowe można wytworzyć z gładkich kamieni lub piaskowców."
     },
     {
       "type": "patchouli:crafting",
       "anchor": "pink_sandstone_flagstones",
       "recipe": "rnr:crafting/flagstone/pink_sandstone",
-      "title": "Flagstone Crafting",
-      "text": "Flagstones can be crafted from smooth stone or sandstone blocks."
+      "title": "Wytwarzanie kamieni chodnikowych",
+      "text": "Kamienie chodnikowe można wytworzyć z gładkich kamieni lub piaskowców."
     },
     {
       "type": "patchouli:image",

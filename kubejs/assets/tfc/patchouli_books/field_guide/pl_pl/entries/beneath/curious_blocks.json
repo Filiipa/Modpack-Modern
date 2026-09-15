@@ -12,8 +12,8 @@
 		},
 		{
 			"type": "patchouli:crafting",
-			"name": "Przypuszczalna siarka",
-			"text": "Hellbricks are a building block that is also used for the $(l:beneath/hellforge)Hellforge$().",
+			"name": "Siarka",
+			"text": "Piekielne cegły to blok budowlany, używany także do budowy $(l:beneath/hellforge)piekielnej kuźni$().",
 			"recipe": "tfg:shapeless/hellbricks"
 		},
 		{

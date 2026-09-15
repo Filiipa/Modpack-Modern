@@ -15,11 +15,11 @@
       "type": "patchouli:text",
       "anchor": "native_copper",
       "text": "Native Copper is an ore of $(thing)Copper$() metal. It can be found in $(l:the_world/geology#igneous_extrusive)Igneous Extrusive$() rocks, at elevations above y=40.$(br2)It can also be found in deposits in $(thing)rivers$(), which can be $(l:mechanics/panning)panned$().",
-      "title": "Przypuszczalna miedź rodzima"
+      "title": "Miedź rodzima"
     },
     {
       "type": "tfc:multimultiblock",
-      "text": "Native Copper Ores in Dacite.",
+      "text": "Rudy miedzi rodzimej w dacycie.",
       "multiblocks": [
         {
           "pattern": [
@@ -66,11 +66,11 @@
       "type": "patchouli:text",
       "anchor": "native_gold",
       "text": "Native Gold is an ore of $(thing)Gold$() metal. It can be found at elevations below y=70, but deeper veins are larger and richer. It can be found in $(l:the_world/geology#igneous_extrusive)Igneous Extrusive$() and $(l:the_world/geology#igneous_intrusive)Igneous Intrusive$() rocks.$(br2)It can also be found in deposits in $(thing)rivers$(), which can be $(l:mechanics/panning)panned$().",
-      "title": "Przypuszczalne złoto rodzime"
+      "title": "Złoto rodzime"
     },
     {
       "type": "tfc:multimultiblock",
-      "text": "Native Gold Ores in Diorite.",
+      "text": "Rudy złota rodzimego w diorycie.",
       "multiblocks": [
         {
           "pattern": [
@@ -117,11 +117,11 @@
       "type": "patchouli:text",
       "anchor": "native_silver",
       "text": "Native Silver is an ore of $(thing)Silver$() metal. Small poor veins can be found in $(thing)Granite$() or $(thing)Diorite$() in uplift regions, above y=90. Larger and richer veins can be found in $(thing)Granite$(), $(thing)Diorite$(), $(thing)Schist$(), and $(thing)Gneiss$() deep underground below y=20.$(br2)It can also be found in deposits in $(thing)rivers$(), which can be $(l:mechanics/panning)panned$().",
-      "title": "Przypuszczalne srebro rodzime"
+      "title": "Srebro rodzime"
     },
     {
       "type": "tfc:multimultiblock",
-      "text": "Native Silver Ores in Granite.",
+      "text": "Ruda srebra rodzimego w granicie.",
       "multiblocks": [
         {
           "pattern": [
@@ -168,11 +168,11 @@
       "type": "patchouli:text",
       "anchor": "tetrahedrite",
       "text": "Tetrahedrite is an ore of $(thing)Copper$() metal. It can be found at any elevation, but deeper veins are often richer. It can be found in $(l:the_world/geology#metamorphic)Metamorphic$() rocks.",
-      "title": "Przypuszczalny tetraedryt"
+      "title": "Tetraedryt"
     },
     {
       "type": "tfc:multimultiblock",
-      "text": "Tetrahedrite Ores in Schist.",
+      "text": "Rudy tetraedrytu w łupku metamorficznym.",
       "multiblocks": [
         {
           "pattern": [
@@ -219,11 +219,11 @@
       "type": "patchouli:text",
       "anchor": "malachite",
       "text": "Malachite is an ore of $(thing)Copper$() metal. It can be found primarily in $(thing)Marble$() or $(thing)Limestone$(), $(thing)Chalk$(), and $(thing)Dolomite$(). It can be found at most elevations, however deeper veins are often larger and richer.",
-      "title": "Przypuszczalny malachit"
+      "title": "Malachit"
     },
     {
       "type": "tfc:multimultiblock",
-      "text": "Malachite Ores in Marble.",
+      "text": "Rudy malachitu w marmurze.",
       "multiblocks": [
         {
           "pattern": [
@@ -270,11 +270,11 @@
       "type": "patchouli:text",
       "anchor": "cassiterite",
       "text": "Cassiterite is an ore of $(thing)Tin$() metal. It can be found in $(l:the_world/geology#igneous_intrusive)Igneous Intrusive$() rocks at high elevation, above y=80 in uplift regions or in dikes.$(br2)It can also be found in deposits in $(thing)rivers$(), which can be $(l:mechanics/panning)panned$().",
-      "title": "Przypuszczalny kasyteryt"
+      "title": "Kasyteryt"
     },
     {
       "type": "tfc:multimultiblock",
-      "text": "Cassiterite Ores in Diorite.",
+      "text": "Rudy kasyterytu w diorycie.",
       "multiblocks": [
         {
           "pattern": [
@@ -321,11 +321,11 @@
       "type": "patchouli:text",
       "anchor": "bismuthinite",
       "text": "Bismuthinite is an ore of $(thing)Bismuth$() metal. It can be found in $(l:the_world/geology#sedimentary)Sedimentary$() rocks near the surface, or larger and richer veins in $(l:the_world/geology#igneous_intrusive)Igneous Intrusive$() rocks deep underground.",
-      "title": "Przypuszczalny bizmutynit"
+      "title": "Bizmutynit"
     },
     {
       "type": "tfc:multimultiblock",
-      "text": "Bismuthinite Ores in Shale.",
+      "text": "Rudy bizmutynitu w łupku.",
       "multiblocks": [
         {
           "pattern": [
@@ -372,11 +372,11 @@
       "type": "patchouli:text",
       "anchor": "garnierite",
       "text": "Garnierite is an ore of $(thing)Nickel$() metal. It can be found at elevations below y=0. It can be found primarily in $(thing)Gabbro$() deep underground. Smaller, rarer veins can also be found in any $(l:the_world/geology#igneous_intrusive)Igneous Intrusive$() rock.",
-      "title": "Przypuszczalny garnieryt"
+      "title": "Garnieryt"
     },
     {
       "type": "tfc:multimultiblock",
-      "text": "Garnierite Ores in Gabbro.",
+      "text": "Rudy garnierytu w gabrze.",
       "multiblocks": [
         {
           "pattern": [
@@ -423,11 +423,11 @@
       "type": "patchouli:text",
       "anchor": "hematite",
       "text": "Hematite is an ore of $(thing)Iron$() metal. It can be found in large veins in any $(l:the_world/geology#igneous_extrusive)Igneous Extrusive$() rocks near the surface.",
-      "title": "Przypuszczalny hematyt"
+      "title": "Hematyt"
     },
     {
       "type": "tfc:multimultiblock",
-      "text": "Hematite Ores in Andesite.",
+      "text": "Rudy hematytu w andezycie.",
       "multiblocks": [
         {
           "pattern": [
@@ -474,11 +474,11 @@
       "type": "patchouli:text",
       "anchor": "magnetite",
       "text": "Magnetite is an ore of $(thing)Iron$() metal. It can be found in large veins in any $(l:the_world/geology#sedimentary)Sedimentary$() rocks near the surface.",
-      "title": "Przypuszczalny magnetyt"
+      "title": "Magnetyt"
     },
     {
       "type": "tfc:multimultiblock",
-      "text": "Magnetite Ores in Limestone.",
+      "text": "Rudy magnetytu w wapieniu.",
       "multiblocks": [
         {
           "pattern": [
@@ -525,11 +525,11 @@
       "type": "patchouli:text",
       "anchor": "limonite",
       "text": "Limonite is an ore of $(thing)Iron$() metal. It can be found in large veins in any $(l:the_world/geology#sedimentary)Sedimentary$() rocks near the surface.",
-      "title": "Przypuszczalny limonit"
+      "title": "Limonit"
     },
     {
       "type": "tfc:multimultiblock",
-      "text": "Limonite Ores in Chalk.",
+      "text": "Rudy limonitu w kredzie.",
       "multiblocks": [
         {
           "pattern": [
@@ -576,11 +576,11 @@
       "type": "patchouli:text",
       "anchor": "sphalerite",
       "text": "Sphalerite is an ore of $(thing)Zinc$() metal. Small, poor veins can be found in $(l:the_world/geology#igneous_extrusive)Igneous Extrusive$() rocks near the surface, and large richer veins can be found in $(l:the_world/geology#igneous_intrusive)Igneous Intrusive$() rocks deep underground.",
-      "title": "Przypuszczalny sfaleryt"
+      "title": "Sfaleryt"
     },
     {
       "type": "tfc:multimultiblock",
-      "text": "Sphalerite Ores in Quartzite.",
+      "text": "Rudy sfalerytu w kwarcycie.",
       "multiblocks": [
         {
           "pattern": [
@@ -627,7 +627,7 @@
       "type": "patchouli:spotlight",
       "anchor": "lignite",
       "item": "tfc:ore/lignite",
-      "title": "Przypuszczalny węgiel brunatny",
+      "title": "Węgiel brunatny",
       "link_recipes": false,
       "text": "Lignite is a type of low-grade $(thing)Coal$() ore. It can be found in very large flat deposits near the surface in $(l:the_world/geology#sedimentary)Sedimentary$() rocks."
     },
@@ -647,14 +647,14 @@
         }
       },
       "name": "",
-      "text": "Lignite in Dolomite.",
+      "text": "Węgiel brunatny w dolomicie.",
       "enable_visualize": false
     },
     {
       "type": "patchouli:spotlight",
       "anchor": "bituminous_coal",
       "item": "tfc:ore/bituminous_coal",
-      "title": "Przypuszczalny węgiel kamienny",
+      "title": "Węgiel kamienny",
       "link_recipes": false,
       "text": "Bituminous Coal is a type of mid-grade $(thing)Coal$() ore. It can be found in very large flat deposits near the surface in $(l:the_world/geology#sedimentary)Sedimentary$() rocks."
     },
@@ -674,7 +674,7 @@
         }
       },
       "name": "",
-      "text": "Bituminous Coal in Chert.",
+      "text": "Węgiel kamienny w czercie.",
       "enable_visualize": false
     },
     {
@@ -687,7 +687,7 @@
     },
     {
       "type": "tfc:multimultiblock",
-      "text": "Variants of kaolin clay.",
+      "text": "Warianty gliny kaolinowej.",
       "multiblocks": [
         {
           "pattern": [
@@ -763,7 +763,7 @@
       "type": "patchouli:spotlight",
       "anchor": "graphite",
       "item": "tfc:ore/graphite",
-      "title": "Przypuszczalny grafit",
+      "title": "Grafit",
       "link_recipes": false,
       "text": "Graphite is a $(thing)Mineral$() which is used in the construction of $(l:mechanics/fire_clay)Fire Clay$(). It can be found in $(thing)Gneiss$(), $(thing)Marble$(), $(thing)Quartzite$(), and $(thing)Schist$() rocks, in elevations below y=60 and above y=-30."
     },
@@ -783,14 +783,14 @@
         }
       },
       "name": "",
-      "text": "Graphite in Gneiss.",
+      "text": "Grafit w gnejsie.",
       "enable_visualize": false
     },
     {
       "type": "patchouli:spotlight",
       "anchor": "cinnabar",
       "item": "tfc:ore/cinnabar",
-      "title": "Przypuszczalny cynabaryt",
+      "title": "Cynober",
       "link_recipes": false,
       "text": "Cinnabar is a $(thing)Mineral$() which can be ground in the $(l:mechanics/quern)Quern$() to obtain $(thing)Redstone Dust$(). It can be found in veins deep underground, in $(thing)Quartzite$(), $(thing)Gneiss$(), $(thing)Phyllite$(), and $(thing)Schist$()."
     },
@@ -810,14 +810,14 @@
         }
       },
       "name": "",
-      "text": "Cinnabar in Quartzite.",
+      "text": "Cinnabar w kwarcycie.",
       "enable_visualize": false
     },
     {
       "type": "patchouli:spotlight",
       "anchor": "cryolite",
       "item": "tfc:ore/cryolite",
-      "title": "Przypuszczalny kryolit",
+      "title": "Kryolit",
       "link_recipes": false,
       "text": "Cryolite is a $(thing)Mineral$() which can be ground in the $(l:mechanics/quern)Quern$() to obtain $(thing)Redstone Dust$(). It can be found in veins deep underground, in $(thing)Granite$(), and $(thing)Diorite$()."
     },
@@ -837,14 +837,14 @@
         }
       },
       "name": "",
-      "text": "Cryolite in Granite.",
+      "text": "Kryolit w granicie.",
       "enable_visualize": false
     },
     {
       "type": "patchouli:spotlight",
       "anchor": "saltpeter",
       "item": "tfc:ore/saltpeter",
-      "title": "Przypuszczalny nitrokalit",
+      "title": "Saletra potasowa",
       "link_recipes": false,
       "text": "Saltpeter is a $(thing)Mineral$() which can be ground in the $(l:mechanics/quern)Quern$(), and then used in the crafting of $(thing)Gunpowder$(). It can be found in very large flat deposits near the surface in $(l:the_world/geology#sedimentary)Sedimentary$() rocks."
     },
@@ -864,14 +864,14 @@
         }
       },
       "name": "",
-      "text": "Saltpeter in Shale.",
+      "text": "Saletra w łupku ilastym.",
       "enable_visualize": false
     },
     {
       "type": "patchouli:spotlight",
       "anchor": "sulfur",
       "item": "tfc:ore/sulfur",
-      "title": "Przypuszczalna siarka",
+      "title": "Siarka",
       "link_recipes": false,
       "text": "Sulfur is a $(thing)Mineral$() which can be ground in the $(l:mechanics/quern)Quern$(), and then used in the crafting of $(thing)Gunpowder$(). It is found near lava level deep underground, in sparse but large and plentiful veins, in any $(l:the_world/geology#metamorphic)Metamorphic$() or $(l:the_world/geology#igneous_intrusive)Igneous Intrusive$() rock."
     },
@@ -891,14 +891,14 @@
         }
       },
       "name": "",
-      "text": "Sulfur in Gabbro.",
+      "text": "Siarka w gabrze.",
       "enable_visualize": false
     },
     {
       "type": "patchouli:spotlight",
       "anchor": "sylvite",
       "item": "tfc:ore/sylvite",
-      "title": "Przypuszczalny sylwin",
+      "title": "Sylwin",
       "link_recipes": false,
       "text": "Sylvite is a $(thing)Mineral$() which can be ground in the $(l:mechanics/quern)Quern$(), and then used as a $(l:mechanics/fertilizers)Fertilizer$(). It can be found in very large flat deposits near the surface in $(thing)Shale$(), $(thing)Claystone$() and $(thing)Chert$()."
     },
@@ -918,14 +918,14 @@
         }
       },
       "name": "",
-      "text": "Sylvite in Chert.",
+      "text": "Sylwin w czercie.",
       "enable_visualize": false
     },
     {
       "type": "patchouli:spotlight",
       "anchor": "borax",
       "item": "tfc:ore/borax",
-      "title": "Przypuszczalny tinkal",
+      "title": "Boraks",
       "link_recipes": false,
       "text": "Borax is a $(thing)Mineral$() which can be ground in the $(l:mechanics/quern)Quern$() to produce $(l:mechanics/flux)Flux$(). It can be found in very large flat deposits near the surface in $(thing)Claystone$(), $(thing)Limestone$(), and $(thing)Shale$()."
     },
@@ -945,14 +945,14 @@
         }
       },
       "name": "",
-      "text": "Borax in Shale.",
+      "text": "Boraks w łupku ilastym.",
       "enable_visualize": false
     },
     {
       "type": "patchouli:spotlight",
       "anchor": "gypsum",
       "item": "tfc:ore/gypsum",
-      "title": "Przypuszczalny gips",
+      "title": "Gips",
       "link_recipes": false,
       "text": "Gypsum is a decorative $(thing)Mineral$() which can be used to make $(l:mechanics/advanced_building_materials#alabaster)Alabaster$(). It can be found in very large flat deposits near the surface in $(l:the_world/geology#sedimentary)Sedimentary$() rocks."
     },
@@ -972,14 +972,14 @@
         }
       },
       "name": "",
-      "text": "Gypsum in Chalk.",
+      "text": "Gips w kredzie.",
       "enable_visualize": false
     },
     {
       "type": "patchouli:spotlight",
       "anchor": "halite",
       "item": "tfc:ore/halite",
-      "title": "Przypuszczalny halityt",
+      "title": "Halit",
       "link_recipes": false,
       "text": "Halite is a $(thing)Mineral$() which can be ground in the $(l:mechanics/quern)Quern$() to make $(thing)Salt$(), which is an important $(l:mechanics/decay#salting)Preservative$(). It can be found in very large flat deposits near the surface in $(l:the_world/geology#sedimentary)Sedimentary$() rocks."
     },
@@ -999,14 +999,14 @@
         }
       },
       "name": "",
-      "text": "Halite in Chalk.",
+      "text": "Halit w kredzie.",
       "enable_visualize": false
     },
     {
       "type": "patchouli:spotlight",
       "anchor": "emerald",
       "item": "tfc:ore/emerald",
-      "title": "Przypuszczalny szmaragd",
+      "title": "Szmaragd",
       "link_recipes": false,
       "text": "Emerald is a decorative $(l:mechanics/gems)Gemstone$(). It looks quite pretty, maybe if you could find someone else in this incredibly lonely world you could trade it with them...$(br2)It appears in thin vertical ore formations which can be up to a hundred blocks tall. It can be found in $(l:the_world/geology#igneous_intrusive)Igneous Intrusive$() rocks."
     },
@@ -1026,14 +1026,14 @@
         }
       },
       "name": "",
-      "text": "Emerald in Diorite.",
+      "text": "Szmaragd w diorycie.",
       "enable_visualize": false
     },
     {
       "type": "patchouli:spotlight",
       "anchor": "diamond",
       "item": "tfc:ore/diamond",
-      "title": "Przypuszczalny kimberlit",
+      "title": "Kimberlit",
       "link_recipes": false,
       "text": "Kimberlite is a decorative and priceless $(l:mechanics/gems)Gemstone$(). It appears in thin vertical ore formations called $(l:https://en.wikipedia.org/wiki/Volcanic_pipe)Kimberlite Pipes$() which can be up to a hundred blocks tall. It can only be found in $(thing)Gabbro$()."
     },
@@ -1053,14 +1053,14 @@
         }
       },
       "name": "",
-      "text": "Kimberlite in Gabbro.",
+      "text": "Kimberlit w gabrze.",
       "enable_visualize": false
     },
     {
       "type": "patchouli:spotlight",
       "anchor": "lapis_lazuli",
       "item": "tfc:ore/lapis_lazuli",
-      "title": "Przypuszczalny lapis lazuli",
+      "title": "Lazuryt",
       "link_recipes": false,
       "text": "Lapis Lazuli is a decorative $(thing)Mineral$() which can be used to make $(l:mechanics/dye)Blue Dye$(). It can be found in large, but sparse veins in $(thing)Limestone$() and $(thing)Marble$(), between y=-20 and y=80."
     },
@@ -1080,14 +1080,14 @@
         }
       },
       "name": "",
-      "text": "Lapis Lazuli in Marble.",
+      "text": "Lazuryt w marmurze.",
       "enable_visualize": false
     },
     {
       "type": "patchouli:spotlight",
       "anchor": "amethyst",
       "item": "tfc:ore/amethyst",
-      "title": "Przypuszczalny ametyst",
+      "title": "Ametyst",
       "link_recipes": false,
       "text": "Amethyst is a decorative $(thing)Mineral$() which can be used to make $(l:mechanics/glassworking)Glass$(). It can be found in $(thing)Sedimentary$() and $(thing)Metamorphic$() rock beneath rivers above y=40."
     },
@@ -1107,16 +1107,16 @@
         }
       },
       "name": "",
-      "text": "Amethyst in Marble.",
+      "text": "Ametyst w marmurze.",
       "enable_visualize": false
     },
     {
       "type": "patchouli:spotlight",
       "anchor": "opal",
       "item": "tfc:ore/opal",
-      "title": "Przypuszczalny opal",
+      "title": "Opal",
       "link_recipes": false,
-      "text": "Opal is a decorative $(thing)Mineral$(). It can be found in $(thing)Sedimentary) and $(thing)Igneous Extrusive$() rock beneath rivers above y=40."
+      "text": "Opal to dekoracyjny $(thing)minerał$(). Można go znaleźć w skałach $(thing)osadowych$() i $(thing)magmowo-głębinowych$() pod rzekami powyżej y=40."
     },
     {
       "type": "patchouli:multiblock",
@@ -1134,7 +1134,7 @@
         }
       },
       "name": "",
-      "text": "Opal in Basalt.",
+      "text": "Opal w bazalcie.",
       "enable_visualize": false
     }
   ],

@@ -1,19 +1,138 @@
 # Changelog
 
 ## Unreleased
+### Breaking Changes
+#### Oxygen Rework
+- Completely reworked Ad Astra's oxygenation mechanics and replaced them with our own native system. (#4931) @Mqrius
+- Added the Oxygen Distributor multiblock to replace Ad Astra's Air Distributor. This one oxygenates an entire enclosed room instead of just a small area around it. @Mqrius
+- Added the Higgs Emitter multiblock to replace Ad Astra's Gravity Normalizer with a significantly larger area of effect. @ashleney
+- Added the Heat Pump multiblock, when built into an outer wall it will regulate the temperature of a large room. @ashleney
+#### Other changes
+- Added more mob icons to xaeros minimap (#4941) @Nezumi-Remis
+- Made it easier to find peat by giving it a unique grass texture (#4964) @applenper
+- Added more asphalt road markings, especially for diagonal lines (#4961) @Sacarbeus123
+- Axes no longer veinmine manually placed logs @ashleney
+- Laser hatches now need a glass lens instead of a diamond lens @ashleney
+- Moon harvester now doesn't need titanium (#4960) @TomPlop
+- Changed the recipe for blue alloy desh foil again @Pyritie
+- Fixed jerboas, mongeese, and lemmings sometimes spawning outside of their correct climate (#4929) @Pyritie
+- Added some more gem plates to gregtech filter crafting recipes @Pyritie
+- Made signs and doors stack to 16 @ashleney
+### Bug fixes
+- Fixed some worldgen crashes (#4905, #4900) @Pyritie
+- Fix to repair scrambled pack order at level data which was affecting a few random world-related things such as not being able to collect glass with a gem saw (#4152) @ariedotme
+- Fixed being able to recraft your space suit to repair it instead of just emptying it (#4930) @Pyritie
+### Mods
+#### TerraFirmaCraft
+- Has been forked! This shouldn't affect you at all, but it ensures long-term stability for the future development of the modpack. Please read [here](https://www.reddit.com/r/TerraFirmaGreg/comments/1wbv1o3/the_future_of_terrafirmacraft_in_tfg/) for more information.
+- ⚠ **Important note**: in an upcoming version (planned for 0.14), we will be backporting more overworld worldgen changes. As this update introduces plate tectonics, it shifts continents around, which unfortunately means everyone will be getting ugly chunk borders. We suggest exploring your continent before this update if this is something you care about. We will also be dropping support for old worldgen (pre-0.12) if you're still using it.
+- Entities (including items) in midair are no longer slowed by snow (#4656) @Therighthon
+#### Dea's Fission
+- The fission reactor's dimension restrictions now actually work (#3359)
+- Multiblocks can no only be rotated along the Y axis
+- Reactor heat level is now saved when the block is broken
+- Redstone ports better remember their level when the chunk is unloaded
+- Fixed metrics incorrectly tracking incomplete multiblocks
+#### Create: Fluid Logistics
+- Separated fluid gauges out from factory gauges. Existing gauges will automatically convert
+- Added Fluid Inventory Access Port
+- Removed waterproof cardboard
+- More bugfixes
+
+## [0.13.10] - 05-09-2026
+### Breaking Changes
+- The new moon cleanroom recipes have been replaced with requiring oxygenation instead (#4896) @TomPlop
+(A new and improved oxygenation system will be coming soon!)
+### Changes
+#### Applied Energistics 2
+- Removed overclock from the ME Resonance Fabricator and made Batch Mode native @TomPlop
+- Adjusted the formulas for how much the budding certus can affect the recipe speeds, and how long the recipes take @TomPlop
+- Some GUI fixes on the new multis @TomPlop
+- Some recipe adjustments (#4896) @TomPlop
+- Changed the craft of the data hatch so a cleanroom isn't required @TomPlop
+#### Other Changes
+- Improved multiblock preview hatch/bus displays for a few multiblocks @TomPlop
+- Doubled the durability of all clothing @ashleney
+- Changed the blue alloy desh foil recipes to be less tedious @Pyritie
+- Reduced the cost of the Rail Buffer @Pyritie
+- Increased the speed of the schematicannon @Pyritie
+- Only a basic mechanical press is required to compress ingots into blocks now @Pyritie
+- Removed the calendar curios slot @Pyritie
+### Bug fixes
+- Fixed a crash with combustion engines when loading into a world with flywheel off @Pyritie
+- Fixed combustion engines consuming very little fuel (#4889) @Pyritie
+- Fixed one part of the moon dust harvester not allowing hatches/buses that should @TomPlop
+- Fixed current and average temperature desync in multiplayer (#3732) @ariedotme
+- Fixed fluid vein EMI tab showing old worldgen entries on servers (#3879) @ariedotme
+- Fixed treated wood barrel recipes accepting their own output as input (#4919) @ariedotme
+- Fixed tarkianite centrifuging into the wrong amount of Molybdenite @Pyritie
+- Fixed the dismantler recipe @TomPlop
+### Mods
+#### TerraFirmaCraft
+- Added an EMI category for lamp fuels @Redeix
+- Fixed rotten eggs hatching stuff
+- Fixed two worldgen-related crashes
+#### Greate
+- Fixed a crash involving mechanical presses
+#### Wan's Ancient Beasts
+- [Lots of bugfixes](https://www.curseforge.com/minecraft/mc-mods/wans-ancient-beasts/files/8761414), most of them either related to the Snatcher and its mechanics, but also the different tameables can sit down by sneak-right-clicking on them now. Press 'C' to access their inventory/equipment screen.
+
+## [0.13.9] - 29-08-2026
+### Breaking Changes
+- Many AE2-related recipes have been changed. Everything outside of very basic components (such as interfaces and pattern providers) must be crafted on the moon in a new multiblock @TomPlop
+- This multiblock is also significantly easier to set up with railgun automation, which is also very highly encouraged so you can get easy crafts without leaving your earth base @TomPlop
+- The multiblock starts out pretty easy to use but more advanced components require interacting with a new mechanic involving budding certus quartz blocks @TomPlop
+- New quests have been added to the AE2 chapter explaining how to set up the railgun automation with the multiblock and how the certus quartz blocks mechanic works @TomPlop
+- Added MEGA pattern providers (2 rows) as an intermediate between regular pattern providers (1 row) and Extended pattern providers (4 rows) @TomPlop
+### Changes
+- Added a new model and texture for pineapple bushes (#4776) @eggyplantsu
+- Added new textures for the red steel flask @NaharaSabrea
+- Buffed the durability of insulated leather clothes @Pyritie
+- The slider on the new combustion engines now only controls rotation direction instead of RPM (#4854) @Pyritie
+- Tarkianite dust is now centrifuged and give Molybdenite so you can't bypass Molybdenum line @TomPlop
+- Added new EMI art for block interaction recipes @Redeix
+- Added a field guide entry for jellies (#4871) @SakuraKitsurugi
+- Buffed maple and birch sap into sugar ratios (#4858) @nixieeq
+- Candles now last for 31 days by default instead of just 7
+### Bug fixes
+- Fixed a freeze when pressing U on items that had a lot of recipes or tags (#4837) @Pyritie
+- Fixed a bunch of missing crop models (#4838) @Pyritie
+- Fixed slashed and riveted locometal dye recipes being the wrong way around (#4844) @pehala
+- Fixed negative durability on leather apron (#4843) @Pyritie
+- Fixed missing Jade information on tree taps @Pyritie
+- Fixed teleporting to the beneath not clearing out gravel above your spawn point, which caused damage/death (#4795) @Pyritie
+- Fixed the AE2 Midnight resource pack so it actually works when requesting items @ArkeHD
+- Fixed inconsistent phantom membrane into thread recipes, and fixed repair recipes for all clothes (#4860) @Pyritie
+- Fixed inconsistent wood planks to sticks lathe recipe for treated wood (#4629) @NeonNoise
+### Mods
+#### Greate
+- Fix mechanical presses not being placed correctly on belts, depots, and weighted ejectors
+- Fix mechanical presses not working correctly with multiple inputs in certain recipes
+- Fix crash when placing saws next to two kinetic sources with different rotation directions
+- Add tooltips to kinetic pumps to show mB/t
+- Fix crash when viewing the ponder for mechanical belts
+#### Create: Railways Navigator
+- Added as an optional mod
+
+## [0.13.8] - 25-08-2026
 ### Breaking changes
-- Chromium through Ferrochrome now requires Circuit 2 @TomPlop
+- Chromium through Ferrochrome now requires Circuit 2, fixing a recipe conflict (#4810) @TomPlop
+- Changes to how AE2 components are crafted on the moon will be coming soon, so start setting up a railgun!
 ### Changes
 #### Ambiental
 - Tiger and lion clothing are now cooling instead of warming @ashleney
-- Rebalanced all clothing into several tiers. For warming: primitive and insulated have +2 warmth, wool has +4 warmth, and animal clothes have +8. For cooling: silk, burlap, and linen are -2 warmth, animal clothes have -4, and new phantom silk and red elk clothes have -8. Clothing that's more difficult to obtain has more durability and insulation to compensate. @ashleney
+- Rebalanced all clothing into several tiers. _For warming:_ primitive and insulated have +2 warmth, wool has +4 warmth, and animal clothes have +8. _For cooling:_ silk, burlap, and linen are -2 warmth, animal clothes have -4, and new phantom silk and red elk clothes have -8. Clothing that's more difficult to obtain has more durability and insulation to compensate. @ashleney
 - Armor no longer affects player temperature (yes this includes the blue steel diving suit, though it does still make you fireproof) @ashleney
 - All recipes have been changed @Pyritie
-- Added new clothing: phantom silk (cooling), red elk (cooling), and cotton @ashleney @Atraxia @Pyritie
-#### Other changes
+- Added new clothing: phantom silk (cooling), red elk (cooling), and cotton @ashleney @NaharaSabrea @Pyritie
+#### GregTech
 - Add more informations to the GUI of the Large Boiler and Geologic Vulcanizer (fluid consumption) @TomPlop
 - Geological Vulcanizer now consummes less Natural Gas with each parallel @TomPlop
 - The Gas Well now depletes fluid vein way slower (same as the MV Fluid Rig) @TomPlop
+- Fixed being able to get wraptor/sniffer/glacian sheep shearable items from earth shearable animals via the pastoral rancher (#4813) @TomPlop
+- Fixed the wraptor/sniffer/glacian sheep output amounts in the pastoral rancher to better match their manual shearing amounts (#4814) @TomPlop
+- Fixed not being able to fully process garnet sands in a normal chemical reactor (#4686) @TomPlop
+#### Other changes
 - Added combustion engines for generating SU from combustible fuels. You can use any fluid that works in a GregTech combustion generator or gas turbine (#4766) @Pyritie
 - Added two more "start room" variations to mineshafts, and added monsters to it @Pyritie
 - Reduced the amount of mobs (and treasure) in Beneath towers, so they are more useful for traveling @Pyritie
@@ -28,8 +147,15 @@
 - Added recipes to convert rose quartz tiles back into blocks (#4768) @applenper
 - Added more cloth blocks @Pyritie
 - Added earlier ways to compress fertilizers into their "pure" form which give 100% nutrients at once @Pyritie
-- Changed a bunch of textures
+- Changed a bunch of textures to their vexxed visuals version @Pyritie
+- Added a new texture for pumpkin chunks @NaharaSabrea
 - Added new quests for concrete and steel supports, and fixed the drum/crate quests missing black/bismuth bronze (#4784) @zxro
+- Added new quests for trains (#4774) @OLOXpl
+- Added a way to craft dyes pre-quern, so your first vessels can be dyed (#4806) @jurjen909
+- Added a mod to properly have borderless fullscreen (#4762) @Pyritie
+- Removed some inventory sorting buttons on more TFC screens that caused issues (#4711) @Pyritie
+- Changed the crankbow to wrought iron tier @Pyritie
+- Removed gregbrine @Pyritie
 ### Bug fixes
 - Fixed mobs suffocating to death inside supports @Pyritie
 - Fixed the hose pulley collecting "flowing" oil fluid instead of normal oil fluid @Pyritie
@@ -38,17 +164,23 @@
 - Fixed the bluemap resource pack so it understands the newer grass blocks (#4752) @jmecn
 - Fixed recipes not loading correctly on certain linux distros @Pyritie
 - Fixed flint knapping not consuming the flint when starting (#4744) @Pyritie
+- Fixed the artisan table not having a correct tool to break it with (#4827) @Redeix
+- Fixed locometal windows not dropping when broken with a gem saw or wrench (#4807) @Sylenoid
+- Fixed gregtech wrenches not interacting with some of create's block entities, like mechanical crafters (#3427) @carbonatek
+- Fixed some rendering issues with connecting create to TFC's kinetic blocks @Redeix
+- Fixed some of TFC's kinetic blocks accepting stress input from sources that were rotated the wrong way @Redeix
+- Fixed sodium bisulfate having an incorrect molecule (#4821) @BlueBoat29
 ### Mods
+#### Jellies
+- Fixed an issue with some jellies not spawning on sand @Pyritie
+- Reduced the amount of jellies that can spawn on the overworld, moon, and mars @SakuraKitsurugi
+- Added nutritional mash, a new food which all jellies can eat @SakuraKitsurugi
 #### ArborFirmaCraft
 - Added new EMI pages for tree tapping @Redeix
 #### TerraFirmaCraft
 - Fixed a crash when sometimes generating chunks with a sealed barrel from structures (such as in the Beneath) @Pyritie
 #### Wakes
 - Fixed several issues involving shaders
-#### Create: Fluid Logistic
-- Added CC:Tweaked compatibility
-- Fixed factory gauge promises overclearing
-- Fixed factory gauges connected to a fluid packager leading to world corruption
 #### ExtendedAE
 - Added exact mode for Precise Export Bus
 #### TACZ/PlayerRevive compatibility
@@ -79,7 +211,7 @@
 - Added coins to some loot tables, and made coins meltable @Pyritie
 - Reduced the drop chance of weapons and equipment from piglin brutes @Pyritie
 - Added a new amethyst/opal/red garnet ore vein to the overworld, and changed the ore processing byproducts of amethyst and opal @Pyritie
-- Added new Gilsonite and Obsidian block sets @Atraxia
+- Added new Gilsonite and Obsidian block sets @NaharaSabrea
 - Stone dusts can now also be turned into Mortar and Crushed Base Course (#4648) @Redeix
 - Changed the textures of wrought iron and stainless steel firmalife greenhouses again to better match the material textures @Pyritie
 - Vanadium magnetite ore/dust can now also be directly smelted into cast iron @Pyritie
@@ -287,7 +419,7 @@
 - Halite blocks (in the Salt Flats and Salt Caves biomes) now gives less salt when mined @Pyritie
 - Renamed Nether Quartz to Smoky Quartz because the netherlands isn't real @Pyritie
 - Breaking the large quartz crystals in the Geothermal Springs biome with a gem saw now gives you the full blocks to build with @Pyritie
-- Added a new texture for the Powderbarrel @Atraxia
+- Added a new texture for the Powderbarrel @NaharaSabrea
 - Added purified irarsite, ruarsite, and ferhodsite ores to the `#tfg:platinum_ore_group` tag (#4367) @AzureCrafts
 - Removed matchboxes from mineshaft loot tables, replaced them with lighters @Pyritie
 - You can now use other kinds of water and oils to cool down hot things in barrels, as well as Ice Slush to cool them even faster (#4384) @theMegaTech
@@ -366,7 +498,7 @@ Due to some issues with servers, we've changed the default world generation for 
 #### Ores
 - Added more ores to the Beneath, including four brand new ones! @TomPlop
 - Added a new multiblock that exclusively works at the bottom of the Beneath - the Geologic Vulcanizer. Right now, it can process all your ores in one single recipe *and* return a bit of extra than you'd normally get doing all the steps separately! However, it's significantly more complicated to run... check the quest in LV for more details. @TomPlop
-- Added new textures for raw ore items and blocks! @Atraxia @Redeix
+- Added new textures for raw ore items and blocks! @NaharaSabrea @Redeix
 - Increased the processing duration of vibration tables @Pyritie
 - Uvarovite now only requires cupronickel coils instead of kanthal @Pyritie
 #### New structures
@@ -376,7 +508,7 @@ Due to some issues with servers, we've changed the default world generation for 
 #### Other changes
 - If you can't find feathers, you can now also use hardwood strips as arrow fletching. You can now also use bone needles as the pointy end of an arrow @Pyritie
 - Made player heads craftable. Check out the client-side mod [lsc's Player Dolls](https://www.curseforge.com/minecraft/texture-packs/lscs-player-dolls) to turn them into into adorable dolls. @ashleney
-- Added a Wireless Charger to charge items in your inventory @TomPlop @AtraxiA
+- Added a Wireless Charger to charge items in your inventory @TomPlop @NaharaSabrea
 - Added a Chameleon Spray Can, a spray can that can do all colors in one item, as well as some extra text effects on signs @Phoenixvine32908 @TomPlop
 - Reduced the aggro range of Spectres from 35 blocks to 16 @Pyritie
 - Increased the HP of cliff hangers and leaf hangers, but now they let go of the player when attacked @Pyritie

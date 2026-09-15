@@ -1,5 +1,5 @@
 {
-  "name": "Scribing Table",
+  "name": "Stół pisarski",
   "category": "tfc:mechanics",
   "icon": "minecraft:black_dye",
   "pages": [
@@ -23,13 +23,13 @@
         }
       },
       "name": "",
-      "text": "The scribing table.",
+      "text": "Stół pisarski.",
       "enable_visualize": false
     },
     {
       "type": "patchouli:crafting",
       "recipe": "tfc:crafting/wood/birch_scribing_table",
-      "text": "The scribing table crafting recipe."
+      "text": "Przepis na stół pisarski."
     },
     {
       "type": "patchouli:image",

@@ -10,7 +10,7 @@
     {
       "type": "tfc:knapping_recipe",
       "recipe": "tfc:fire_clay_knapping/crucible",
-      "text": "Knapping an $(thing)Unfired Crucible$()."
+      "text": "Rzeźbienie $(thing)niewypalonego tygla$()."
     },
     {
       "type": "tfc:heat_recipe",
@@ -39,21 +39,21 @@
         }
       },
       "name": "",
-      "text": "A crucible heated by a charcoal forge below it.",
+      "text": "Tygiel podgrzewany przez kuźnię węglową pod nim.",
       "enable_visualize": false
     },
     {
       "type": "patchouli:text",
       "anchor": "advanced_alloying",
       "text": "Now, you are ready to use the crucible. When you use it, you will see the $(thing)Crucible Interface$(), shown to the right. The top region shows the current metal content of the crucible. The first metal shown is what would be produced, if it were to be extracted right now. Other metals shown are the makeup of the current alloy in the crucible.",
-      "title": "Advanced Alloying"
+      "title": "Zaawansowane stopy"
     },
     {
       "type": "patchouli:image",
       "images": [
         "tfc:textures/gui/book/gui/crucible.png"
       ],
-      "text": "The Crucible Interface",
+      "text": "Interfejs tygla",
       "border": false
     },
     {

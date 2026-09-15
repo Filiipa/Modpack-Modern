@@ -5,8 +5,8 @@
 	"pages": [
 		{
 			"type": "patchouli:crafting",
-			"name": "Soul Clay",
-			"text": "Пироксенитовый акведук позволяет проводить лаву на любое расстояние.",
+			"name": "Глина душ",
+			"text": "Акведуки могут перемещать лаву и другие жидкости. Это может быть полезно при строительстве $(l:beneath/hellforge)Адской кузни$().",
 			"anchor": "blackstone_aqueduct",
 			"recipe": "tfg:shaped/blackstone_aqueduct"
 		},

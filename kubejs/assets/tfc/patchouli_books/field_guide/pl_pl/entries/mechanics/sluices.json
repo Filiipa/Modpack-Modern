@@ -10,7 +10,7 @@
     {
       "type": "patchouli:crafting",
       "recipe": "tfc:crafting/wood/sequoia_sluice",
-      "text": "The sluice is made from sticks and lumber."
+      "text": "Płuczka jest wykonana z patyków i desek."
     },
     {
       "type": "patchouli:text",
@@ -21,7 +21,7 @@
       "images": [
         "tfc:textures/gui/book/tutorial/sluice_cross.png"
       ],
-      "text": "A sluice with the correct water setup.",
+      "text": "Prawidłowo ustawiona płuczka.",
       "border": true
     },
     {
@@ -33,13 +33,13 @@
       "images": [
         "tfc:textures/gui/book/tutorial/sluice_in_use.png"
       ],
-      "text": "A working sluice with items inside of it.",
+      "text": "Pracująca płuczka z przedmiotami w środku.",
       "border": true
     },
     {
       "type": "patchouli:text",
       "text": "Sluicing can give three possible products: $(thing)Ore$(), $(thing)Loose Rocks$(), and $(l:mechanics/gems)Gems$(). The probabilities are as follows:$(br)$(li)Ore: 55%%$(li)Loose Rock: 22.5%%$(li)Gem: 0.9%%$()Each rock type has a specific gem that it will drop, that is exclusive to that rock type.",
-      "title": "Products of Panning"
+      "title": "Produkty płukania"
     }
   ],
   "read_by_default": true,

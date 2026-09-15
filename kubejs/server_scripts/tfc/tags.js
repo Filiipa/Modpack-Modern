@@ -523,6 +523,11 @@ function registerTFCItemTags(event) {
     fluidItemIngredientHolders.forEach(item => {
         event.add('tfc:fluid_item_ingredient_empty_containers', item)
     });
+	event.add('tfc:fluid_item_ingredient_empty_containers', 'gtceu:glass_vial')
+	event.add('tfc:glass_bottles', 'gtceu:glass_vial')
+
+	// TFC's fence gates are in the wrong tag
+	event.add('minecraft:fence_gates', '#forge:fence_gates')
 }
 
 /** @param {TagEvent.Block} event */
@@ -664,6 +669,18 @@ function registerTFCBlockTags(event) {
 	event.add('tfc:mineable_with_glass_saw', 'createdeco:industrial_iron_window_pane');
 	event.add('tfc:mineable_with_glass_saw', 'createdeco:brass_window_pane');
 	event.add('tfc:mineable_with_glass_saw', 'createdeco:zinc_window_pane');
+
+    // Metal bars
+    // Need these as blocktags too for the atmosphere_passable tag
+    event.add("tfg:metal_bars", "tfc:metal/bars/bismuth_bronze");
+    event.add("tfg:metal_bars", "tfc:metal/bars/black_bronze");
+    event.add("tfg:metal_bars", "tfc:metal/bars/bronze");
+    event.add("tfg:metal_bars", "tfc:metal/bars/copper");
+    event.add("tfg:metal_bars", "tfc:metal/bars/wrought_iron");
+    event.add("tfg:metal_bars", "tfc:metal/bars/steel");
+    event.add("tfg:metal_bars", "tfc:metal/bars/black_steel");
+    event.add("tfg:metal_bars", "tfc:metal/bars/blue_steel");
+    event.add("tfg:metal_bars", "tfc:metal/bars/red_steel");
 }
 
 /** @param {TagEvent.Fluid} event */

@@ -1,5 +1,5 @@
 {
-  "name": "The Burlap Sack",
+  "name": "Worek jutowy",
   "category": "tfc:sacks_n_such",
   "icon": "sns:burlap_sack",
   "pages": [
@@ -11,7 +11,7 @@
     {
       "type": "patchouli:crafting",
       "recipe": "sns:crafting/burlap_sack",
-      "text": "By default these can hold up to $(thing)Small$() Items"
+      "text": "Domyślnie może przechowywać maks. $(thing)małe$() przedmioty"
     }
   ],
   "read_by_default": true
