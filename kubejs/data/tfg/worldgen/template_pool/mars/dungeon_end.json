@@ -10,6 +10,15 @@
 					"processors": "tfg:mars/dungeon/metal",
 					"projection": "rigid"
 				        }
+		},
+		{
+			"weight": 100,
+			"element":  {
+					"element_type": "minecraft:single_pool_element",
+					"location": "tfg:mars/dungeon/endpoint",
+					"processors": "tfg:mars/dungeon/metal",
+					"projection": "rigid"
+				        }
 		}
     ]
 }

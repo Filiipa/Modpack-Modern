@@ -1,6 +1,6 @@
 {
 	"name": "tfg:mars/dungeon_tunnels",
-	"fallback": "minecraft:empty",
+	"fallback": "tfg:mars/dungeon_end",
 	"elements": [
 		{
 			"weight": 30,
