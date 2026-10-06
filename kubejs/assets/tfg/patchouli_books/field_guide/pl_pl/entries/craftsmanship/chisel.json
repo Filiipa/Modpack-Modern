@@ -1,5 +1,5 @@
 {
-    "name": "Chisels",
+    "name": "Dłuta",
     "category": "tfg:craftsmanship",
     "icon": "tfc:metal/chisel/wrought_iron",
     "pages": [
@@ -32,11 +32,11 @@
         },
         {
             "type": "patchouli:text",
-            "text": "Be careful! Chiseling in a mineshaft is not safe. Each time you chisel, there is a chance of $(l:game_mechanics/mining#supports)Collapse$()."
+            "text": "Uważaj! Obrabianie skał dłutem w kopalni jest niebezpieczne. Każde użycie dłuta może spowodować $(l:game_mechanics/mining#supports)zawalenie$()."
         },
         {
             "type": "patchouli:relations",
-            "title": "Further Reading",
+            "title": "Czytaj dalej",
             "anchor": "relations",
             "entries": [
                 "tfg:the_world/geology",

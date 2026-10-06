@@ -1,15 +1,15 @@
 {
-    "name": "Aqueducts",
+    "name": "引水橋",
     "category": "tfg:agriculture",
     "icon": "tfc:rock/aqueduct/shale",
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(thing)Aqueducts$() are a tool used for moving $(thing)Fluids$() around. Since $(item)Wooden Buckets$() are not able to transport water sources, $(thing)Aqueducts$() exist to move fluids horizontally any distance to their destination. They can be used to transport any type of water―including $(thing)Fresh Water$(), $(thing)Salt Water$(), and $(thing)Hot Spring Water$()―as well as $(thing)Lava$().$(br)Aqueducts with plain water in them can $(l:agriculture/growing_crops#hydration)hydrate farmland$()."
+            "text": "$(thing)引水橋$()是用來搬運$(thing)流體$()的工具。由於$(item)木製水桶$()無法搬運水源，$(thing)引水橋$()可以將流體沿水平方向輸送任意距離到目的地。它能輸送任何種類的水，包括$(thing)淡水$()、$(thing)鹹水$()和$(thing)溫泉水$()，也能輸送$(thing)熔岩$()。$(br)裝有普通水的引水橋可以$(l:agriculture/growing_crops#hydration)灌溉耕地$()。"
         },
         {
             "type": "patchouli:text",
-            "text": "In order to use an $(thing)Aqueduct$(), you must simply connect them in a horizontal pattern, and place one end adjacent to either a $(thing)Source$() or $(thing)Falling$() water. After waiting a short while, water will begin to flow through the aqueduct network, and out the other end.$(br2)$(bold)Note:$() If aqueducts are removed, water will cease flowing, and $(thing)Aqueducts$() will not create permanent source blocks―any water will disappear after the aqueducts are removed."
+            "text": "要使用$(thing)引水橋$()，只需將它們水平連接起來，並把其中一端放在$(thing)水源$()或$(thing)下落的水$()旁邊。稍等一會兒，水就會開始流過引水橋網路，並從另一端流出。$(br2)$(bold)注意：$()如果移除引水橋，水就會停止流動。$(thing)引水橋$()不會產生永久的水源方塊，移除引水橋後裡面的水都會消失。"
         },
         {
             "type": "tfg:multimultiblock",
@@ -93,13 +93,13 @@
                     }
                 }
             ],
-            "name": "Aqueduct Network",
-            "text": "An aqueduct network with water or lava.",
+            "name": "引水橋網路",
+            "text": "含水或熔岩的引水橋網路。",
             "enable_visualize": false
         },
         {
             "type": "patchouli:relations",
-            "title": "Further Reading",
+            "title": "延伸閱讀",
             "anchor": "relations",
             "entries": [
                 "tfg:agriculture/growing_crops",

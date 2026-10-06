@@ -6,7 +6,7 @@
         {
             "type": "patchouli:text",
             "anchor": "intro",
-            "text": "Every item has a $(thing)Size ⇲$() and $(thing)Weight ⚖$(). An item's size and weight is shown on the $(thing)tooltip$(), which appears when you hover over it with your mouse."
+            "text": "Każdy przedmiot ma $(thing)rozmiar ⇲$() i $(thing)wagę ⚖$(). Rozmiar i waga przedmiotu są widoczne w $(thing)podpowiedzi$(), która pojawia się po najechaniu na niego myszą."
         },
         {
             "type": "patchouli:text",
@@ -32,11 +32,11 @@
         },
         {
             "type": "patchouli:text",
-            "text": "Items that count towards overburdening include $(thing)Anvils$(), $(thing)Sealed Barrels$(), and $(thing)Crucibles$() (with contents).$(br2)Note: $(l:agriculture/animal_husbandry#equines)Horses$() can also be overburdened.$(br2)Raising your $(l:cooking/food_and_water#protein)Protein$() stat allows you to carry an additional item without being overburdened."
+            "text": "Items that count towards overburdening include $(thing)Anvils$(), $(thing)Sealed Barrels$(), and $(thing)Crucibles$() (with contents).$(br2)Note: $(l:agriculture/animal_husbandry#equines)Horses$() can also be overburdened.$(br2)Raising your $(l:cooking/food_and_water#protein)Protein$() stat allows you to carry an additional item without being overburdened.$(br2)$(bold)Tip:$() Being overburdened protects you from floating while holding $(thing)lighter-than-air$() gases."
         },
         {
             "type": "patchouli:relations",
-            "title": "Further Reading",
+            "title": "Czytaj dalej",
             "anchor": "relations",
             "entries": [
                 "tfg:craftsmanship/barrels",

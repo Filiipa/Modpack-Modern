@@ -3,9 +3,11 @@
 	"start_pool": "tfg:beneath/outpost",
 	"size": 7,
 	"max_distance_from_center": 128,
-	"biomes": "#tfg:has_structure/tower",
+	"biomes": [],
+	"____biomes": "#tfg:has_structure/tower",
 	"step": "surface_structures",
 	"terrain_adaptation": "none",
+	"start_projection": "floor",
 	"start_height": {
 		"absolute": 93
 	},

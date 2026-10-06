@@ -42,6 +42,7 @@
   "block.gtmutils.tag_stocking_bus.desc.1": "Lista zapasów jest tworzona na podstawie filtrów tagów (biała/czarna lista)",
   "block.gtmutils.tag_stocking_bus.desc.2": "Automatycznie przechowuje pasujące przedmioty w buforze",
   "block.gtmutils.tag_stocking_hatch.desc.0": "Pobiera płyny bezpośrednio z sieci ME",
+  "block.gtmutils.tag_stocking_hatch.desc.1": "Lista zapasów jest tworzona na podstawie filtrów tagów (biała/czarna lista)",
   "block.gtmutils.tag_stocking_hatch.desc.2": "Automatycznie przechowuje pasujące płyny w buforze",
   "block.gtmutils.uev_64a_energy_converter": "Konwerter energii §aUPN§r 64§eA§r",
   "block.gtmutils.uev_auto_charger_4x": "Automatyczna turbo ładowarka §2ultra nadmiernego napięcia§r 4x",
@@ -166,9 +167,11 @@
   "tooltip.pterb_machine.input_coolant_before_use": "Zawsze wprowadź chłodziwo przed włączeniem!",
   "tooltip.pterb_machine.purpose": "Most Einsteina–Rosena do przesyłu energii (PTERB)",
   "tooltip.pterb_machine.uses_coolant": "Używa %s do funkcjonowania!",
+  "tooltip.web_hub_machine.frequencies": "Hub WEB dostarcza energię do bezprzewodowej sieci energetycznej. Działa na tej samej częstotliwości co odbiornik WEB.",
   "tooltip.web_hub_machine.input_coolant_before_use": "Zawsze wprowadź chłodziwo przed włączeniem!",
   "tooltip.web_hub_machine.purpose": "Most Einsteina–Rosena do przesyłu energii (PTERB)",
   "tooltip.web_hub_machine.uses_coolant": "Używa %s do funkcjonowania!",
+  "tooltip.web_receiver_machine.frequencies": "Odbiornik WEB jest wyjściem energii bezprzewodowej sieci energetycznej. Współdzieli częstotliwość z hubem WEB, pobiera energię z sieci bezprzewodowej i ją wyprowadza.",
   "tooltip.web_receiver_machine.only_output": "Otrzymuje energię z huba WEB",
   "tooltip.web_receiver_machine.purpose": "Kotwica Einsteina-Rosena (ERAP)"
 }

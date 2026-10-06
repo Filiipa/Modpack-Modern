@@ -181,12 +181,14 @@
 				"tfg:craftsmanship/metallurgy",
 				"tfg:cooking/food_and_water",
 				"tfg:game_mechanics/mining",
-				"tfg:game_mechanics/mob_effects"
+				"tfg:game_mechanics/mob_effects",
+				"tfg:craftsmanship/clothing",
+				"tfg:game_mechanics/heating"
 			]
 		}
 	],
 	"extra_recipe_mappings": {
-		"tag:gtceu:ppe_armor": 0,
-		"tag:tfg:medicine": 0
+		"tag:gtceu:ppe_armor": 6,
+		"tag:tfg:medicine": 7
 	}
 }
